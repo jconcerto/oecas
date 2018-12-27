@@ -1,0 +1,61 @@
+<template>
+    <system>
+        <name>star_name</name>
+        <declination>dec</declination>
+        <rightascension>ra</rightascension>
+        <distance errorplus='star_distance_error_max' errorminus='star_distance_error_min'>star_distance</distance>
+        <epoch></epoch>
+    </system>
+    <star>
+        <name>star_name</name>
+        <altnames>star_alternate_names</altnames>
+        <mass errorplus='star_mass_error_max' errorminus='star_mass_error_min'>star_mass</mass>
+        <radius errorplus='star_radius_error_max' errorminus='star_radius_error_min'>star_radius</radius>
+        <temperature errorplus='star_teff_error_max' errorminus='star_teff_error_min'>star_teff</temperature>
+        <age errorplus='star_age_error_max' errorminus='star_age_error_min'>star_age</age>
+        <metallicity errorplus='star_metallicity_error_max' errorminus='star_metallicity_error_min'>star_metallicity</metallicity>
+        <spectraltype>star_sp_type</spectraltype>
+        <magB></magB>
+	    <magV>mag_v</magV>
+	    <magR></magR>
+	    <magI>mag_i</magI>
+	    <magJ>mag_j</magJ>
+	    <magH>mag_h</magH>
+	    <magK>mag_k</magK>
+    </star>
+    <planet>
+        <name># name</name>
+        <altnames>alternate_names</altnames>
+        <semimajoraxis errorplus='semi_major_axis_error_max' errorminus='semi_major_axis_error_min'>semi_major_axis</semimajoraxis>
+        <seperation></seperation>
+        <eccentricity errorplus='eccentricity_error_max' errorminus='eccentricity_error_min'>eccentricity</eccentricity>
+        <periastron errorplus='omega_error_max' errorminus='omega_error_min'>omega</periastron>
+        <longitude errorplus='lambda_angle_error_max' errorminus='lambda_angle_error_min'>lambda_angle</longitude>
+        <meananomaly></meananomaly>
+        <ascendingnode></ascendingnode>
+        <inclination errorplus='inclination_error_max' errorminus='inclination_error_min'>inclination</inclination>
+        <impactparameter errorplus='impact_parameter_error_max' errorminus='impact_parameter_error_min'>impact_parameter</impactparameter>
+        <period errorplus='orbital_period_error_max' errorminus='orbital_period_error_min'>orbital_period</period>
+        <transittime></transittime>
+        <periastrontime errorplus='tperi_error_max' errorminus='tperi_error_min'>tperi</periastrontime>
+        <maximumrvtime></maximumrvtime>
+	    <mass errorplus='mass_error_max' errorminus='mass_error_min'>mass</mass>
+	    <radius errorplus='radius_error_max' errorminus='radius_error_min'>radius</radius>
+	    <temperature>temp_measured</temperature><!-- temp_calculated or temp_measured? -->
+        <age></age>
+        <spectraltype></spectraltype>
+        <magB></magB>
+        <magV></magV>
+        <magR></magR>
+        <magI></magI>
+        <magJ></magJ>
+        <magH></magH>
+        <magK></magK>
+	    <discoverymethod>detection_type</discoverymethod> <!-- need to do string comparison to get proper value -->
+	    <istransiting></istransiting> <!-- 1 or 0 -->
+        <description></description>
+	    <discoveryyear>discovered</discoveryyear>
+	    <lastupdate>updated</lastupdate> <!-- need to parse string with script -->
+        <spinorbitalignment></spinorbitalignment>
+    </planet>
+</template>

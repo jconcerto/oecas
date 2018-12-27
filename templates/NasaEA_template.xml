@@ -1,0 +1,59 @@
+<template>
+    <system>
+        <name>pl_hostname</name>
+        <declination>dec_str</declination>
+        <rightascension>ra_str</rightascension>
+        <distance errorplus='st_disterr1' errorminus='st_disterr2'>st_dist</distance>
+        <epoch></epoch>
+    </system>
+    <star>
+        <name>pl_hostname</name>
+        <mass errorplus='st_masserr1' errorminus='st_masserr2'>st_mass</mass>
+        <radius errorplus='st_raderr1' errorminus='st_raderr2'>st_rad</radius>
+        <temperature errorplus='st_tefferr1' errorminus='st_tefferr2'>st_teff</temperature>
+        <age errorplus='st_ageerr1' errorminus='st_ageerr2'>st_age</age>
+        <spectraltype errorplus='st_ssperr' errorminus='st_ssperr'>st_spstr</spectraltype>
+        <metallicity errorplus='st_metfeerr1' errorminus='st_metfeerr2'>st_metfe</metallicity>
+        <magB errorplus='st_bjerr' errorminus='st_bjerr'>st_bj</magB>
+        <magV errorplus='st_vjerr' errorminus='st_vjerr'>st_vj</magV>
+        <magR errorplus='st_rcerr' errorminus='st_rcerr'>st_rc</magR>
+        <magI errorplus='st_icerr' errorminus='st_icerr'>st_ic</magI>
+        <magJ errorplus='st_jerr' errorminus='st_jerr'>st_j</magJ>
+        <magH errorplus='st_herr' errorminus='st_herr'>st_h</magH>
+        <magK errorplus='st_kerr' errorminus='st_kerr'>st_k</magK>
+    </star>
+    <planet>
+        <name>pl_name</name>
+        <semimajoraxis errorplus='pl_orbsmaxerr1' errorminus='pl_orbsmaxerr2'>pl_orbsmax</semimajoraxis>
+        <separation></separation>
+        <eccentricity errorplus='pl_orbeccenerr1' errorminus='pl_orbeccenerr2'>pl_orbeccen</eccentricity>
+        <periastron errorplus='pl_orblpererr1' errorminus='pl_orblpererr2'>pl_orblper</periastron>
+        <longitude></longitude>
+        <meananomaly></meananomaly>
+        <ascendingnode></ascendingnode>
+        <inclination errorplus='pl_orbinclerr1' errorminus='pl_orbinclerr2'>pl_orbincl</inclination>
+        <impactparameter errorplus='pl_impparerr1' errorminus='pl_impparerr2'>pl_imppar</impactparameter>
+        <period errorplus='pl_orbpererr1' errorminus='pl_orbpererr2'>pl_orbper</period>
+        <transittime errorplus='pl_tranmiderr1' errorminus='pl_tranmiderr2'>pl_tranmid</transittime>
+        <periastrontime errorplus='pl_orbtpererr1' errorminus='pl_orbtpererr2'>pl_orbtper</periastrontime>
+        <maximumrvtime></maximumrvtime>
+        <mass></mass>
+        <radius errorplus='pl_radjerr1' errorminus='pl_radjerr2'>pl_radj</radius>
+        <temperature errorplus='pl_eqterr1' errorminus=' pl_eqterr2'>pl_eqt</temperature>
+        <age></age>
+        <spectraltype></spectraltype>
+        <magB></magB>
+        <magV></magV>
+        <magR></magR>
+        <magI></magI>
+        <magJ></magJ>
+        <magH></magH>
+        <magK></magK>
+        <discoverymethod>pl_discmethod</discoverymethod>
+        <istransiting></istransiting>
+        <description></description>
+        <discoveryyear>pl_disc</discoveryyear>
+        <lastupdate>rowupdate</lastupdate>
+        <spinorbitalignment></spinorbitalignment>
+    </planet>
+</template>

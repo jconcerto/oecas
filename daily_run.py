@@ -1,0 +1,3 @@
+import repomanager
+
+repomanager.update()

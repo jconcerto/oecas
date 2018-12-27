@@ -1,0 +1,34 @@
+<planet>
+    <name></name>
+    <semimajoraxis></semimajoraxis>
+    <seperation></seperation>
+    <eccentricity></eccentricity>
+    <periastron></periastron>
+    <longitude></longitude>
+    <meananomaly></meananomaly>
+    <ascendingnode></ascendingnode>
+    <inclination></inclination>
+    <impactparameter></impactparameter>
+    <period></period>
+    <transittime></transittime>
+    <periastrontime></periastrontime>
+    <maximumrvtime></maximumrvtime>
+    <mass></mass>
+    <radius></radius>
+    <temperature></temperature>
+    <age></age>
+    <spectraltype></spectraltype>
+    <magB></magB>
+    <magV></magV>
+    <magR></magR>
+    <magI></magI>
+    <magJ></magJ>
+    <magH></magH>
+    <magK></magK>
+    <discoverymethod></discoverymethod>
+    <istransiting></istransiting>
+    <description></description>
+    <discoveryyear></discoveryyear>
+    <lastupdate></lastupdate>
+    <spinorbitalignment></spinorbitalignment>
+</planet>
